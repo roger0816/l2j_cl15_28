@@ -1,0 +1,56 @@
+<html><title>主要管理員選單</title><body>
+<center>
+<table width=270 border=0 bgcolor="444444">
+<tr>
+<td><button value="主頁面" action="bypass -h admin_admin" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="角色" action="bypass -h admin_admin6" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="遊戲" action="bypass -h admin_admin2" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="GM" action="bypass -h admin_admin7" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+<font name="hs11" color="LEVEL">%templateName% (%templateId%)</font>
+<br>
+
+<font name="hs10" color="LEVEL">資訊:</font><br1>
+<table border=0 cellpadding=0 cellspacing=0 bgcolor="363636">
+<tr>
+<td align=center fixwidth="250">活躍的世界:</font></td>
+<td align=center fixwidth="250"><font color="LEVEL">%activeWorlds%</font></td>
+</tr>
+
+<tr>
+<td align=center fixwidth="250">持續時間:</font></td>
+<td align=center fixwidth="250"><font color="LEVEL">%duration%</font></td>
+</tr>
+
+<tr>
+<td align=center fixwidth="250">空置銷毀時間:</font></td>
+<td align=center fixwidth="250"><font color="LEVEL">%emptyDuration%</font></td>
+</tr>
+
+<tr>
+<td align=center fixwidth="250">驅逐時間:</font></td>
+<td align=center fixwidth="250"><font color="LEVEL">%ejectDuration%</font></td>
+</tr>
+
+<tr>
+<td align=center fixwidth="250">移除增益效果:</font></td>
+<td align=center fixwidth="250"><font color="LEVEL">%removeBuff%</font></td>
+</tr>
+</table>
+
+<br><br>
+<font name="hs10" color="LEVEL">從範本創建實例:</font><br1>
+
+<combobox width=120 height=17 var=ebox list=單人;隊伍;指揮頻道><br>
+<button value="創建實例!" action="bypass -h admin_instancecreate %templateId% $ebox" width=140 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+
+<br><br>
+<font name="hs10" color="LEVEL">活躍實例:</font><br1>
+
+%instanceList%
+
+<button value="返回" action="bypass -h admin_instancelist" width=200 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br1>
+</center>
+</body></html>

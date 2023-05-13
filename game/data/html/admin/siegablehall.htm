@@ -1,0 +1,38 @@
+<html><body>
+<table width=270><tr>
+<td width=45><button value="主頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>攻城菜單</center></td>
+<td width=45><button value="返回" action="bypass -h admin_clanhall" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><center>
+<br>氏族大廳: %clanhallName%<br1>
+氏族大廳擁有者: %clanhallOwner%
+<br>
+<center>
+<edit var="box" width=120 height=15>
+</center>
+<br>
+<table><tr>
+<td><button value="開啟門" action="bypass -h admin_clanhallopendoors %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="關閉門" action="bypass -h admin_clanhallclosedoors %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="給予氏族大廳" action="bypass -h admin_clanhallset %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="收回氏族大廳" action="bypass -h admin_clanhalldel %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="開始攻城" action="bypass -h admin_chsiege_startSiege %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="結束攻城" action="bypass -h admin_chsiege_endsSiege %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="添加攻擊方" action="bypass -h admin_chsiege_addAttacker %clanhallId% $box" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="移除攻擊方" action="bypass -h admin_chsiege_removeAttacker %clanhallId% $box" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="列出攻擊方" action="bypass -h admin_chsiege_listAttackers %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="清除攻擊方" action="bypass -h admin_chsiege_clearAttackers %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="設置攻城日期" action="bypass -h admin_chsiege_setSiegeDate %clanhallId% $box" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="傳送自己" action="bypass -h admin_clanhallteleportself %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="轉移攻城" action="bypass -h admin_chsiege_forwardSiege %clanhallId%" width=135 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table></center>
+<br><font color="FF0000">
+注意:</font> 使用框輸入氏族名稱以添加/移除（也可以通過選擇氏族成員）或設置攻城日期。日期必須按照此格式DD-MM-YYYY;HH:MM。 
+</body></html>

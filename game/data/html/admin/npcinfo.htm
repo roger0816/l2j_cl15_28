@@ -1,0 +1,41 @@
+<html><title>NPC資訊</title><body>
+<center>
+<table width=270 border=0 bgcolor="444444">
+<tr>
+<td><button value="殺死" action="bypass -h admin_kill" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="刪除" action="bypass -h admin_delete" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="召回" action="bypass -h admin_recall_npc" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="增益效果" action="bypass admin_getbuffs" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="任務" action="bypass admin_show_quests %tmplid%" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="NPC檢視" action="bypass NpcViewMod view %objid%" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="技能" action="bypass NpcViewMod skills %objid%" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="仇恨列表" action="bypass NpcViewMod aggrolist %objid%" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td></td>
+</tr>
+</table>
+<img src="L2UI.SquareWhite" width=260 height=1><br>
+<table width=270 border=0>
+<tr><td colspan="4"><table width=270 border=0><tr><td width=270><font color="LEVEL">NPC資訊</font> : %name% (<font color="LEVEL">%id%</font>) [<font color=00FF00>%lvl%</font>等級]</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">物件ID</font></td><td align=right width=170>%objid%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">類型:</font></td><td align=right width=170><font color=999999>%class%</font></td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">種族</font></td><td align=right width=170>%race%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">生成檔案:</font></td><td align=right width=170>%spawnfile%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">生成名稱:</font></td><td align=right width=170>%spawnname%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">生成群組:</font></td><td align=right width=170>%spawngroup%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">生成AI:</font></td><td align=right width=170>%spawnai%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">生成位置:</font></td><td align=right width=170>%spawn%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">位置:</font></td><td align=right width=170>%loc%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">朝向:</font></td><td align=right width=170>%heading%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">碰撞半徑:</font></td><td align=right width=170>%collision_radius%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">碰撞高度:</font></td><td align=right width=170>%collision_height%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">距離:</font></td><td align=right width=170>2D: %loc2d%, 3D: %loc3d%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">重生:</font></td><td align=right width=170>%resp%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">追擊範圍:</font></td><td align=right width=170>%chaseRange%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">仇恨:</font></td><td align=right width=170><font color=999999>%aggro%</font></td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">HP:</font></td><td align=right width=170><font color=FF4040>%hp%/%hpmax%</font></td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">MP:</font></td><td align=right width=170><font color=6161FF>%mp%/%mpmax%</font></td></tr></table></td></tr>
+<tr><td><table width=270 border=0 bgcolor=131210><tr><td width=100><font color="LEVEL">經驗值:</font></td><td align=right width=170>%exp%</td></tr></table></td></tr>
+<tr><td><table width=270 border=0><tr><td width=100><font color="LEVEL">SP:</font></td><td align=right width=170>%sp%</td></tr></table></td></tr>
+<tr><td><table

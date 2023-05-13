@@ -1,0 +1,30 @@
+<html><title>尋找雙開面板</title><body>
+<center>
+<table width=270>
+<tr>
+<td width=45><button value="主頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>雙開菜單</center></td>
+<td width=45><button value="返回" action="bypass -h admin_admin6" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+<button value="前往角色列表" action="bypass -h admin_show_characters 0" width=150 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+<br>
+有雙開的IP地址 (%multibox%):
+<br>
+%results%
+<br><br>
+尋找雙開:<br1>
+<table width=220>
+<tr>
+<td><button value="2個以上角色" action="bypass -h admin_%strict%find_dualbox 2" width=110 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="3個以上角色" action="bypass -h admin_%strict%find_dualbox 3" width=110 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="4個以上角色" action="bypass -h admin_%strict%find_dualbox 4" width=110 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="5個以上角色" action="bypass -h admin_%strict%find_dualbox 5" width=110 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+</center>
+</body></html>

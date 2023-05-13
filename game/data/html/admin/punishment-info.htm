@@ -1,0 +1,33 @@
+<html><title>懲罰資訊面板</title><body>
+<center>
+<table width=270>
+<tr>
+<td width=45><button value="主頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>%affect_type%： %player_name%</center></td>
+<td width=45><button value="返回" action="bypass -h admin_punishment" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+<table width=280 bgcolor="666666" cellspacing="0" cellpadding="6">
+	<tr>
+		<td>影響類型：</td>
+		<td><combobox width=120 height=12 var="affectType" list="%affects%"></td>
+	</tr>
+	<tr>
+		<td>關鍵字：</td>
+		<td><edit var="key" width="130" height="12"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td><a action="bypass -h admin_punishment info $key $affectType">查詢</a></td>
+	</tr>
+</table>
+<br>
+<table width=280 bgcolor="666666" cellspacing="0" cellpadding="6">
+	<tr>
+		<td>類型</td>
+		<td>到期時間</td>
+		<td>操作</td>
+	</tr>
+	%punishments%
+</table>

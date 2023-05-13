@@ -1,0 +1,17 @@
+<html><body>
+<font color="LEVEL">[調整稅率]</font><br>
+今天的稅率為<font color="00FFFF">%tax_rate%%</font>。明天的稅率將為<font color="00FFFF">%next_tax_rate%%</font>。<br>
+您可以在<font color="LEVEL">0% - %tax_limit%%</font>的範圍內選擇新的稅率。如果您選擇新的稅率，它將在同一天午夜生效。<br>
+請注意，如果您按下“確定”按鈕而沒有輸入值，稅率將自動設置為<font color="LEVEL">0%</font>。<br><br>
+<center>
+<table width=170 height=27 bgcolor="CCCCCC">
+<tr>
+<td width=30 align=center>稅率</td>
+<td width=50 align=right><edit type=number var="tax_rate" width=30 length=2></td><td width=15 align=left>%</td>
+<td>
+<button action="bypass -h Quest CastleChamberlain set_tax $tax_rate" value="確定" width=90 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</td></tr>
+</table>
+<br><button action="bypass -h Quest CastleChamberlain chamberlain-01.html" value="取消" width=90 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</center>
+</body></html>

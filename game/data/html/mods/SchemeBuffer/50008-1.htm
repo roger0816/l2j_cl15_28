@@ -1,0 +1,14 @@
+<html><body>
+<font color="LEVEL">您最多可以創建%max_schemes%個方案。</font> 您明白了嗎？<br1>
+如果不明白，請閱讀直到理解！我可不想浪費時間在笨蛋身上...<br>
+您可以填寫此表格來註冊新方案，這裡！
+<center><table width=220>
+	<tr>
+		<td width="140"><edit var="name" width=140 height=15></td>
+		<td width="60"><button value="創建" action="bypass -h npc_%objectId%_createscheme $name" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
+	</tr>
+</table></center><br>
+這裡列出了您的方案及其費用。<br>
+%schemes%<br>
+<Button ALIGN=LEFT ICON="RETURN" action="bypass -h npc_%objectId%_menu">返回</Button>
+</body></html>

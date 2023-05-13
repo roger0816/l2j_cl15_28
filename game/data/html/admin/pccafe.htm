@@ -1,0 +1,60 @@
+<html><title>管理員PC點數管理器</title><body>
+<center>
+<table width=270 align=center>
+<tr>
+<td width=45><button value="主頁" action="bypass admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>管理員PC點數管理器</center></td>
+<td width=45><button value="返回" action="bypass -h admin_admin6" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+<font color="LEVEL">目標資訊</font><br1>
+	<table width="270" align=center border="0" bgcolor="444444">
+		<tr>
+			<td>玩家名稱:</td>
+			<td><font color="00FF00">%targetName%</font></td>
+		</tr>
+		<tr>
+			<td>玩家點數:</td>
+			<td><font color="00FF00">%points%</font></td>
+		</tr>
+	</table>
+	<br>
+	<font color="LEVEL">目標操作</font><br1>
+	<table width=256 align=center border=0 bgcolor="444444">
+		<tr>
+			<td width=128 align=center>操作</td>
+			<td width=128 align=center><combobox width=120 height=17 var=ebox list=increase;decrease;set></td>
+		</tr>
+		<tr>
+			<td width=128 align=center>數值</td>
+			<td width=128 align=center><edit var="val" width=120 type="number"></td>
+		</tr>
+	</table>
+	<table width="270" align=center border="0" bgcolor="444444">
+		<tr>
+			<td><center><br><button value="確認" action="bypass -h admin_pccafepoints $ebox $val" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></center></td>
+		</tr>
+	</table>
+	<br>
+	<font color="LEVEL">獎勵更多玩家</font><br1>
+	<table width=256 align=center border=0 bgcolor="444444">
+		<tr>
+			<td width=128 align=center>範圍</td>
+			<td width=128 align=center><edit var="range" width=120 type="number"></td>
+		</tr>
+		<tr>
+			<td width=128 align=center>數值</td>
+			<td width=128 align=center><edit var="val2" width=120 type="number"></td>
+		</tr>
+	</table>
+	<table width="257" align=center border="0" bgcolor="444444">
+		<tr>
+			<td><center><br><button value="確認" action="bypass -h admin_pccafepoints rewardOnline $val2 $range" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></center></td>
+		</tr>
+		<tr>
+			<td><center>注意: 如果您將“範圍”留空或設為0，<br1>它將獎勵所有在線玩家。</center></td>
+		</tr>
+	</table>
+</center>
+</body></html>

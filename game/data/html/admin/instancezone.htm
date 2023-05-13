@@ -1,0 +1,38 @@
+<html><title>實例維護菜單</title><body>
+<center>
+<table width=270><tr>
+<td width=45><button value="主頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>實例創建菜單</center></td>
+<td width=45><button value="返回" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+<table width=260>
+<tr>
+<td><button value="常規" action="bypass -h admin_html instancezone.htm" width=83 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="個人" action="bypass -h admin_html instancezone2.htm" width=83 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="模板ID" action="bypass -h admin_html help/instancezone_list.htm" width=83 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br>
+創建示例：<br1>
+實例：[ 1 ] - 模板：[ demo.xml ]<br>
+<table width=260>
+<tr>
+<td></td>
+<td>實例</td>
+<td>模板XML</td>
+</tr>
+<tr>
+<td><button value="創建" action="bypass -h admin_instancecreate $instanceid_create $templateid" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><edit var="instanceid_create" width=50></td>
+<td><edit var="templateid" width=80></td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td><button value="銷毀" action="bypass -h admin_instancedestroy $instanceid_destroy $templateid" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><edit var="instanceid_destroy" width=50></td>
+</tr>
+</table>
+<br><br>
+<button value="列出實例" action="bypass -h admin_instancelist" width=110 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br><br>
+<font color="LEVEL">IDs => 300000：保留用於動態實例！</font>
+</center>
+</body></html>

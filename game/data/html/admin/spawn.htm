@@ -1,0 +1,32 @@
+<html><title>生成菜單</title><body>
+<center>
+<table width=270><tr>
+<td width=45><button value="主頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center><button value="生成NPC" action="bypass -h admin_show_npcs" width=70 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></center></td>
+<td width=45><button value="返回" action="bypass -h admin_spawn" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+按ID生成NPC/Mob:<font color="LEVEL"> [*]</font><br1>
+<table width=270><tr>
+<td width=90>ID|名稱/數量:</td>
+<td width=60><edit var="id" width=60 height=15></td>
+<td width=15><edit var="qty" width=15 height=15></td>
+<td width=45><button value="生成" action="bypass -h admin_spawn_monster $id $qty" width=45 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=45><button value="生成1個" action="bypass -h admin_spawn_once $id $qty" width=45 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+特殊功能:<br1>
+<table width=270>
+<tr>
+	<td><button value="重新載入" action="bypass -h admin_spawn_reload" width=90 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td><button value="取消所有生成" action="bypass -h admin_unspawnall" width=90 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	<td><button value="重生所有" action="bypass -h admin_respawnall" width=90 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="生成夜晚" action="bypass -h admin_spawnnight" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="生成白天" action="bypass -h admin_spawnday" width=90 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td></td>
+</tr>
+</table>
+</center><br>
+[*]: 名稱不區分大小寫，但必須使用底線代替空格。<br>
+如果您不需要多個Mob，可以將數量欄留空。
+</body></html>

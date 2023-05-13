@@ -1,0 +1,36 @@
+<html><body>
+<center>
+<table width=260>
+<tr>
+<td width=40><button value="主頁" action="bypass -h admin_admin" width=45 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180>怪物群組控制指令</td>
+<td width=40><button value="返回" action="bypass -h admin_mobmenu" width=45 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br>
+</center>
+<font color="LEVEL">//mobgroup_create</font> [groupId] [npcId] [number]<br>
+創建一個包含[number]個[npcId]類型怪物的群組，群組ID為[groupId]。<br>
+使用此命令沒有視覺效果，群組成員需要生成才能變為活動狀態。<br><br>
+<font color="LEVEL">//mobgroup_remove</font> [groupId]<br>
+刪除群組[groupId]，同時取消生成任何仍然存活的群組成員。<br><br>
+<font color="LEVEL">//mobgroup_spawn</font> [groupId] [locx] [locy] [locz]<br>
+生成群組[groupId]的成員。如果未指定位置，則群組將在GM周圍生成。<br>
+默認情況下，怪物處於閒置狀態，等待進一步命令。<br>
+<font color="LEVEL">//mobgroup_unspawn</font> [groupId]<br>
+取消生成群組[groupId]的成員。群組不會被刪除，可以再次使用//mobgroup_spawn命令生成。<br>
+<font color="LEVEL">//mobgroup_list</font> ([groupId])<br>
+列出所有已創建的怪物群組。如果指定了[groupId]，則顯示該群組成員的列表。<br>
+<img src="L2UI.SquareGray" width="200" height="1"><br>
+<font color="999999">其他指令</font><br>
+<font color="LEVEL">//mobgroup_follow</font> [groupId] - 群組[groupId]將跟隨GM。<br>
+<font color="LEVEL">//mobgroup_return</font> [groupId] - 群組[groupId]將返回GM。<br>
+<font color="LEVEL">//mobgroup_teleport</font> [groupId] ([playerName]) - 群組[groupId]將被傳送到並跟隨指定的玩家（如果未指定，則跟隨GM）。<br>
+<font color="LEVEL">//mobgroup_attack</font> [groupId] - 群組[groupId]將攻擊GM當前的目標（如果有）。<br>
+<font color="LEVEL">//mobgroup_rnd</font> [groupId] - 群組[groupId]將攻擊隨機選擇的目標。<br>
+<font color="LEVEL">//mobgroup_attackgrp</font> [groupId1] [groupId2] - 群組[groupId1]將攻擊[groupId2]中的成員。<br>
+<font color="LEVEL">//mobgroup_casting</font> [groupId] - 群組[groupId]的怪物將只使用技能進行攻擊。<br>
+<font color="LEVEL">//mobgroup_nomove</font> [groupId] [on/off] - 切換群組[groupId]的怪物不再移動。與僅使用技能模式一起使用時很有趣。<br>
+<font color="LEVEL">//mobgroup_invul</font> [groupId] [on/off] - 切換群組[groupId]的怪物為無敵狀態。<br>
+<font color="LEVEL">//mobgroup_idle</font> [groupId] - 將群組[groupId]中的怪物返回到閒置（等待）狀態。<br>
+<font color="LEVEL">//mobgroup_kill</font> [groupId] - 消滅群組[groupId]中所有存活的怪物。
+</body></html>

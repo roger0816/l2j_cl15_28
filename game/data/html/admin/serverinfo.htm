@@ -1,0 +1,129 @@
+<html>
+	<title>管理員伺服器資訊</title>
+	<body>
+		<center>
+			<table width=270>
+ 				<tr>
+					<td width=45><button value="主頁" action="bypass admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+					<td width=180>
+						<center>伺服器資訊</center>
+					</td>
+					<td width=45><button value="返回" action="bypass admin_admin4" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				</tr>
+			</table>
+			<br>
+			<font color="LEVEL">記憶體：</font>
+			<br1>
+			<table width="270" border="0" bgcolor="444444">
+				<tr>
+					<td>已使用記憶體：</td>
+					<td><font color="00FF00">%usedMem%</font></td>
+				</tr>
+				<tr>
+					<td>可用記憶體：</td>
+					<td><font color="00FF00">%freeMem%</font></td>
+				</tr>
+				<tr>
+					<td>總記憶體：</td>
+					<td><font color="00FF00">%totalMem%</font></td>
+				</tr>
+			</table>
+			<br>
+			<font color="LEVEL">執行緒：</font>
+			<br1>
+			<table width="270" border="0" bgcolor="444444">
+				<tr>
+					<td>活著的：</td>
+					<td><font color="00FF00">%live%</font></td>
+				</tr>
+				<tr>
+					<td>非 Daemon：</td>
+					<td><font color="00FF00">%nondaemon%</font></td>
+				</tr>
+				<tr>
+					<td>Daemon：</td>
+					<td><font color="00FF00">%daemon%</font></td>
+				</tr>
+				<tr>
+					<td>峰值：</td>
+					<td><font color="00FF00">%peak%</font></td>
+				</tr>
+				<tr>
+					<td>總啟動數：</td>
+					<td><font color="00FF00">%totalstarted%</font></td>
+				</tr>
+			</table>
+			<br>
+			<font color="LEVEL">垃圾回收器：</font>
+			<br1>
+			<table width="270" border="0" bgcolor="444444">
+				<tr>
+					<td>類型：</td>
+					<td><font color="00FF00">%gcol%</font></td>
+				</tr>
+				<tr>
+					<td>次數：</td>
+					<td><font color="00FF00">%colcount%</font></td>
+				</tr>
+				<tr>
+					<td>時間：</td>
+					<td><font color="00FF00">%coltime%</font></td>
+				</tr>
+			</table>
+			<br>
+			<font color="LEVEL">玩家：</font>
+			<br1>
+			<table width="270" border="0" bgcolor="444444">
+				<tr>
+					<td>總玩家數：</td>
+					<td><font color="00FF00">%onlineAll%</font></td>
+				</tr>
+				<tr>
+					<td>離線交易數：</td>
+					<td><font color="00FF00">%offlineTrade%</font></td>
+				</tr>
+				<tr>
+					<td>線上 GM 數：</td>
+					<td><font color="00FF00">%onlineGM%</font></td>
+				</tr>
+				<tr>
+					<td>真實玩家數：</td>
+					<td><font color="00FF00">%onlineReal%</font></td>
+				</tr>
+			</table>
+			<br>
+			<font color="LEVEL">一般：</font>
+			<br1>
+			<table width="270" border="0" bgcolor="444444">
+				<tr>
+					<td>作業系統：</td>
+					<td><font color="00FF00">%os_name%</font></td>
+				</tr>
+				<tr>
+					<td>作業系統版本：</td>
+					<td><font color="00FF00">%os_ver%</font></td>
+				</tr>
+				<tr>
+					<td>伺服器槽位：</td>
+					<td><font color="00FF00">%slots%</font></td>
+				</tr>
+				<tr>
+					<td>伺服器運行時間：</td>
+					<td><font color="00FF00">%serverUpTime%</font></td>
+				</tr>
+				<tr>
+					<td>伺服器時間：</td>
+					<td><font color="00FF00">%serverTime%</font></td>
+				</tr>
+				<tr>
+					<td>遊戲時間：</td>
+					<td><font color="00FF00">%gameTime% (%dayNight%)</font></td>
+				</tr>
+				<tr>
+					<td>路徑尋找：</td>
+					<td><font color="00FF00">%geodata%</font></td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>

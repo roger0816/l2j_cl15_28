@@ -1,0 +1,55 @@
+<html><title>懲罰資訊面板</title><body>
+<center>
+<table width=270>
+<tr>
+<td width=45><button value="主頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>玩家： %player_name%</center></td>
+<td width=45><button value="返回" action="bypass -h admin_punishment" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+<br>
+<a action="bypass -h admin_punishment info %acc% 帳號">帳號 %acc% 的懲罰</a><br1>
+<a action="bypass -h admin_punishment info %char% 角色">角色 %char% 的懲罰</a><br1>
+<a action="bypass -h admin_punishment info %ip% IP">IP %ip% 的懲罰</a><br1>
+<a action="bypass -h admin_punishment info %hwid% 硬體識別碼">硬體識別碼 %hwid% 的懲罰</a><br1>
+<br>
+<table width=280 bgcolor="666666" cellspacing="0" cellpadding="6">
+	<tr>
+		<td>懲罰類型：</td>
+		<td><combobox width=120 height=17 var="punishmentType" list="%punishments%"></td>
+	</tr>
+	<tr>
+		<td>時間：</td>
+		<td><edit var="expiration" width="130" height="12" type="number"></td>
+	</tr>
+	<tr>
+		<td>原因：</td>
+		<td><multiedit var="reason" width=130 height=32></td>
+	</tr>
+	<tr>
+		<td>帳號：</td>
+		<td>%acc%</td>
+		<td><a action="bypass -h admin_punishment_add %acc% 帳號 $punishmentType $expiration $reason">封鎖</a></td>
+	</tr>
+	<tr>
+		<td>角色：</td>
+		<td>%char%</td>
+		<td><a action="bypass -h admin_punishment_add %char% 角色 $punishmentType $expiration $reason">封鎖</a></td>
+	</tr>
+	<tr>
+		<td>IP：</td>
+		<td>%ip%</td>
+		<td><a action="bypass -h admin_punishment_add %ip% IP $punishmentType $expiration $reason">封鎖</a></td>
+	</tr>
+	<tr>
+		<td>硬體識別碼：</td>
+		<td>%hwid%</td>
+		<td><a action="bypass -h admin_punishment_add %hwid% 硬體識別碼 $punishmentType $expiration $reason">封鎖</a></td>
+	</tr>
+</table>
+</center>
+<br>
+<font color="LEVEL">永久封鎖請使用 0 當作時間。<br1>
+時間單位為分鐘。</font>
+</html>

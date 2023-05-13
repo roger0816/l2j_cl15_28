@@ -1,0 +1,55 @@
+<html><body>
+<table width=270>
+<tr>
+<td width=45><button value="主頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>角色選擇菜單</center></td>
+<td width=45><button value="返回" action="bypass -h admin_admin6" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br>
+<table width=240><tr>
+<td width=80>角色:</td><td><edit var="qbox" width=120 height=15></td>
+<td><button value="幫助" action="bypass -h admin_html help/charmanage.htm" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+<center>
+<table width=260><tr>
+<td><button value="前往" action="bypass -h admin_goto_char_menu $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="踢出" action="bypass -h admin_kick_menu $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="封禁角色" action="bypass -h admin_ban_char $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="封禁帳號" action="bypass -h admin_ban_acc $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr><tr>
+<td><button value="召回" action="bypass -h admin_recall_char_menu $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="殺死" action="bypass -h admin_kill_menu $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="解封角色" action="bypass -h admin_unban_char $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="解封帳號" action="bypass -h admin_unban_acc $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+<tr>
+<td><button value="召回隊伍" action="bypass -h admin_recall_party_menu $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="召回氏族" action="bypass -h admin_recall_clan_menu $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="監獄" action="bypass -h admin_jail $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="解除監獄" action="bypass -h admin_unjail $qbox" width=60 height=15 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</center><br>
+<center>
+<table width=260><tr>
+<td width=15>X:</td><td><edit var="char_cord_x" width=50></td>
+<td width=15>Y:</td><td><edit var="char_cord_y" width=50></td>
+<td width=15>Z:</td><td><edit var="char_cord_z" width=50></td>
+<td><button value="傳送" action="bypass -h admin_teleport_character_to_menu $qbox $char_cord_x $char_cord_y $char_cord_z" width=60 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+<table width=260>
+<tr><td width=90>起始城鎮:</td><td width="110">大陸:</td></tr>
+<tr><td><a action="bypass -h admin_teleport_character_to_menu $qbox -114351 255286 -1520"><font color="LEVEL">談話之島</font></a></td><td><a action="bypass -h admin_teleport_character_to_menu $qbox 15670 142983 -2705"><font color="LEVEL">狄翁鎮</font></a></td></tr>
+<tr><td><a action="bypass -h admin_teleport_character_to_menu $qbox -80353 247981 -3507"><font color="LEVEL">費隆村</font></a></td><td><a action="bypass -h admin_teleport_character_to_menu $qbox 17838 170274 -3508"><font color="LEVEL">弗洛蘭村</font></a></td></tr>
+<tr><td></td><td><a action="bypass -h admin_teleport_character_to_menu $qbox 83400 147943 -3404"><font color="LEVEL">吉蘭鎮</font></a></td></tr>
+<tr><td>競技場:</td><td><a action="bypass -h admin_teleport_character_to_menu $qbox -80826 149775 -3043"><font color="LEVEL">古魯丁村</font></a></td></tr>
+<tr><td><a action="bypass -h admin_teleport_character_to_menu $qbox -86979 142402 -3643"><font color="LEVEL">古魯丁競技場</font></a></td><td><a action="bypass -h admin_teleport_character_to_menu $qbox -12672 122776 -3116"><font color="LEVEL">格魯村</font></a></td></tr>
+<tr><td><a action="bypass -h admin_teleport_character_to_menu $qbox 147451 46728 -3410"><font color="LEVEL">大競技場</font></a></td><td><a action="bypass -h admin_teleport_character_to_menu $qbox 117110 76883 -2695"><font color="LEVEL">獵人村</font></a></td></tr>
+<tr><td><a action="bypass -h admin_teleport_character_to_menu $qbox 73890 142656 -3778"><font color="LEVEL">吉蘭競技場</font></a></td><td><a action="bypass -h admin_teleport_character_to_menu $qbox 147450 26741 -2204"><font color="LEVEL">亞丁鎮</font></a></td></tr>
+<tr><td></td><td><a action="bypass -h admin_teleport_character_to_menu $qbox 82956 53162 -1495"><font color="LEVEL">奧倫鎮</font></a></td></tr>
+<tr><td>其他:</td><td><a action="bypass -h admin_teleport_character_to_menu $qbox 147928 -55273 -2734"><font color="LEVEL">戈達鎮</font></a></td></tr>
+<tr><td><a action="bypass -h admin_teleport_character_to_menu $qbox -186742 244167 2670"><font color="LEVEL">庫塞雷斯</font></a></td><td><a action="bypass -h admin_teleport_character_to_menu $qbox 87386 -143246 -1293 "><font color="LEVEL">史塔特魯加鎮</font></a></td></tr>
+<tr><td><a action="bypass -h admin_teleport_character_to_menu $qbox 207320 87617 -1112"><font color="LEVEL">阿卡恩</font></a></td><td><a action="bypass -h admin_teleport_character_to_menu $qbox 111409 219364 -3545"><font color="LEVEL">海因鎮</font></a></td></tr>
+</table>
+</center>
+</body></html>

@@ -1,0 +1,24 @@
+<html><title>高級服務管理員</title><body>
+<center>
+<table width=270>
+<tr>
+<td width=45><button value="主頁" action="bypass admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>高級服務管理員</center></td>
+<td width=45><button value="返回" action="bypass -h admin_admin6" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+<br>
+<font color="LEVEL">輸入帳號名稱</font><br>
+<edit var="acc_name" width=200>
+<br>
+<br><button value="增加1個月高級服務" action="bypass -h admin_premium_add1 $acc_name" width=200 height=30 back="L2UI_CT1.OlympiadWnd_DF_Reward_Down" fore="L2UI_CT1.OlympiadWnd_DF_Reward">
+<button value="增加2個月高級服務" action="bypass -h admin_premium_add2 $acc_name" width=200 height=30 back="L2UI_CT1.OlympiadWnd_DF_Reward_Down" fore="L2UI_CT1.OlympiadWnd_DF_Reward">
+<button value="增加3個月高級服務" action="bypass -h admin_premium_add3 $acc_name" width=200 height=30 back="L2UI_CT1.OlympiadWnd_DF_Reward_Down" fore="L2UI_CT1.OlympiadWnd_DF_Reward">
+<br>
+<button value="查看高級服務資訊" action="bypass -h admin_premium_info $acc_name" width=200 height=30 back="L2UI_CT1.HtmlWnd_DF_Area_Down" fore="L2UI_CT1.HtmlWnd_DF_Area">
+<button value="移除高級服務" action="bypass -h admin_premium_remove $acc_name" width=200 height=30  back="L2UI_CT1.HtmlWnd_DF_Reset_Down" fore="L2UI_CT1.HtmlWnd_DF_Reset">
+<br>
+<font color="FF0000">玩家可以使用.premium指令<br1>
+查看他們的帳戶狀態。</font>
+</center>
+</body></html>

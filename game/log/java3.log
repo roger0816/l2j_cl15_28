@@ -1,0 +1,692 @@
+2023.04.16 09:03:40,963	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml doesn't exists using automatic configuration...
+2023.04.16 09:03:41,536	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+2023.04.16 09:03:41,563	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 192.168.80.0/24 address: 192.168.80.1
+2023.04.16 09:03:41,605	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 192.168.174.0/24 address: 192.168.174.1
+2023.04.16 09:03:41,626	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 169.254.0.0/16 address: 169.254.138.222
+2023.04.16 09:03:41,686	INFO	31	org.l2jmobius.gameserver.model.World	World: (288 by 272) World Region Grid set up.
+2023.04.16 09:03:41,697	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 192.168.1.0/24 address: 192.168.1.101
+2023.04.16 09:03:41,844	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 0.0.0.0/0 address: 1.171.203.32
+2023.04.16 09:03:41,861	INFO	1	org.l2jmobius.Config	Loaded 6 Filter Words.
+2023.04.16 09:03:41,870	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Database ]
+2023.04.16 09:03:42,075	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2023.04.16 09:03:42,075	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2023.04.16 09:03:42,075	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2023.04.16 09:03:42,076	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...16 scheduled pool executors with 64 total threads.
+2023.04.16 09:03:42,079	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...16 instant pool executors with 32 total threads.
+2023.04.16 09:03:42,100	INFO	1	org.l2jmobius.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2023.04.16 09:03:42,101	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	Updated characters online status.
+2023.04.16 09:03:42,110	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 elements from database in 0 seconds.
+2023.04.16 09:03:42,116	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 expired timestamps from database.
+2023.04.16 09:03:42,118	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: 102912 id's available.
+2023.04.16 09:03:42,118	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2023.04.16 09:03:42,229	INFO	1	org.l2jmobius.gameserver.scripting.ScriptEngineManager	Loaded 792 files to exclude.
+2023.04.16 09:03:42,229	INFO	1	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Telnet ]
+2023.04.16 09:03:42,361	INFO	1	org.l2jmobius.gameserver.network.telnet.TelnetServer	Telnet server is currently disabled.
+2023.04.16 09:03:42,361	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ World ]
+2023.04.16 09:03:42,440	INFO	1	org.l2jmobius.gameserver.instancemanager.MapRegionManager	MapRegionManager: Loaded 30 map regions.
+2023.04.16 09:03:42,443	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager 19 by 18 Zone Region Grid set up.
+2023.04.16 09:03:42,761	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 32 zone classes and 2728 zones.
+2023.04.16 09:03:42,765	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Last static id 200224.
+2023.04.16 09:03:43,050	INFO	1	org.l2jmobius.gameserver.data.xml.DoorData	DoorData: Loaded 1512 doors.
+2023.04.16 09:03:43,058	INFO	1	FenceData	FenceData: Loaded 1 fences.
+2023.04.16 09:03:43,066	INFO	1	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 5 variables.
+2023.04.16 09:03:43,066	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2023.04.16 09:03:43,075	INFO	1	org.l2jmobius.gameserver.data.xml.ActionData	ActionData: Loaded 215 player actions.
+2023.04.16 09:03:43,105	INFO	1	org.l2jmobius.gameserver.data.xml.CategoryData	CategoryData: Loaded 215 categories.
+2023.04.16 09:03:43,113	INFO	1	org.l2jmobius.gameserver.data.xml.SecondaryAuthData	SecondaryAuthData: Loaded 328 forbidden passwords.
+2023.04.16 09:03:43,118	INFO	1	org.l2jmobius.gameserver.data.xml.CombinationItemsData	CombinationItemsData: Loaded 0 combinations.
+2023.04.16 09:03:43,122	INFO	1	org.l2jmobius.gameserver.data.xml.SayuneData	SayuneData: Loaded 0 maps.
+2023.04.16 09:03:43,161	INFO	1	org.l2jmobius.gameserver.data.xml.ClanRewardData	ClanRewardData: Loaded 4 rewards for MEMBERS_ONLINE.
+2023.04.16 09:03:43,162	INFO	1	org.l2jmobius.gameserver.data.xml.ClanRewardData	ClanRewardData: Loaded 4 rewards for HUNTING_MONSTERS.
+2023.04.16 09:03:43,162	INFO	1	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2023.04.16 09:03:46,082	INFO	1	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 361 effect handlers.
+2023.04.16 09:03:46,098	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantSkillGroupsData	EnchantSkillGroupsData: Loaded 30 enchant routes, max enchant set to 30.
+2023.04.16 09:03:46,917	INFO	1	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Loaded 31158 Skills.
+2023.04.16 09:03:47,149	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 13756 Class skills for 89 class skill trees.
+2023.04.16 09:03:47,150	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 sub-class skills.
+2023.04.16 09:03:47,150	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 dual-class skills.
+2023.04.16 09:03:47,150	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 transfer skills for 0 transfer skill trees.
+2023.04.16 09:03:47,150	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 race skills for 0 race skill trees.
+2023.04.16 09:03:47,150	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 18 fishing skills, 8 Dwarven only fishing skills.
+2023.04.16 09:03:47,150	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 collect skills.
+2023.04.16 09:03:47,154	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 73 clan skills, 43 for clan and 30 residential.
+2023.04.16 09:03:47,154	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 18 sub-pledge skills.
+2023.04.16 09:03:47,154	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 transform skills.
+2023.04.16 09:03:47,155	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 5 noble skills.
+2023.04.16 09:03:47,155	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 5 hero skills.
+2023.04.16 09:03:47,155	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 34 game master skills.
+2023.04.16 09:03:47,155	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 1 game master aura skills.
+2023.04.16 09:03:47,155	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 ability skills.
+2023.04.16 09:03:47,155	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 alchemy skills.
+2023.04.16 09:03:47,155	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 class awaken save skills.
+2023.04.16 09:03:47,155	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 Revelation skills.
+2023.04.16 09:03:47,156	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 8 common skills.
+2023.04.16 09:03:47,164	INFO	1	org.l2jmobius.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 881 skills.
+2023.04.16 09:03:47,164	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2023.04.16 09:03:47,573	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Highest item id used: 49870
+2023.04.16 09:03:47,574	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 4363 Etc Items
+2023.04.16 09:03:47,574	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 778 Armor Items
+2023.04.16 09:03:47,574	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 1254 Weapon Items
+2023.04.16 09:03:47,575	INFO	1	org.l2jmobius.gameserver.data.ItemTable	ItemTable: Loaded 6395 Items in total.
+2023.04.16 09:03:47,579	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 4 item group templates.
+2023.04.16 09:03:47,579	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 1 scroll group templates.
+2023.04.16 09:03:47,582	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 24 enchant scrolls.
+2023.04.16 09:03:47,582	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 0 support items.
+2023.04.16 09:03:47,592	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemOptionsData	EnchantItemOptionsData: Loaded 65 items and 1591 options.
+2023.04.16 09:03:47,595	INFO	1	org.l2jmobius.commons.util.IXmlReader	ElementalAttributeData: Loaded 0 elemental attribute items.
+2023.04.16 09:03:47,597	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 12 crystallization templates.
+2023.04.16 09:03:47,597	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 0 pre-defined crystallizable items.
+2023.04.16 09:03:47,599	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Generated 0 crystallizable items from templates.
+2023.04.16 09:03:47,685	INFO	1	org.l2jmobius.gameserver.data.xml.OptionData	OptionData: Loaded 2640 options.
+2023.04.16 09:03:47,691	INFO	1	VariationData	VariationData: Loaded 0 variations.
+2023.04.16 09:03:47,691	INFO	1	VariationData	VariationData: Loaded 0 fees.
+2023.04.16 09:03:47,694	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemHPBonusData	EnchantItemHPBonusData: Loaded 11 enchant HP bonuses.
+2023.04.16 09:03:47,924	INFO	1	org.l2jmobius.gameserver.data.xml.BuyListData	BuyListData: Loaded 333 buyLists.
+2023.04.16 09:03:47,955	INFO	1	org.l2jmobius.gameserver.data.xml.MultisellData	MultisellData: Loaded 29 multisell lists.
+2023.04.16 09:03:47,971	INFO	1	org.l2jmobius.gameserver.data.xml.RecipeData	RecipeData: Loaded 623 recipes.
+2023.04.16 09:03:47,980	INFO	1	org.l2jmobius.gameserver.data.xml.ArmorSetData	ArmorSetData: Loaded 33 armor sets.
+2023.04.16 09:03:47,984	INFO	1	org.l2jmobius.gameserver.data.xml.FishingData	FishingData: Loaded 2 bait and 2 rod data.
+2023.04.16 09:03:48,005	INFO	1	org.l2jmobius.gameserver.data.xml.HennaData	HennaData: Loaded 372 henna data.
+2023.04.16 09:03:48,009	INFO	1	org.l2jmobius.gameserver.data.xml.PrimeShopData	PrimeShopData: Loaded 8 items.
+2023.04.16 09:03:48,019	INFO	1	org.l2jmobius.commons.util.IXmlReader	LuckyGameData: Loaded 2 lucky game data.
+2023.04.16 09:03:48,020	INFO	1	org.l2jmobius.gameserver.data.xml.AttendanceRewardData	AttendanceRewardData: Disabled.
+2023.04.16 09:03:48,021	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2023.04.16 09:03:48,025	INFO	1	org.l2jmobius.gameserver.data.xml.ClassListData	ClassListData: Loaded 153 class data.
+2023.04.16 09:03:48,028	INFO	1	org.l2jmobius.gameserver.data.xml.InitialEquipmentData	InitialEquipmentData: Loaded 9 initial equipment data.
+2023.04.16 09:03:48,031	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 5 initial global shortcuts data.
+2023.04.16 09:03:48,031	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 4 initial shortcuts data.
+2023.04.16 09:03:48,031	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 0 macro presets.
+2023.04.16 09:03:48,034	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 76 levels.
+2023.04.16 09:03:48,034	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 75.
+2023.04.16 09:03:48,034	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 75.
+2023.04.16 09:03:48,037	INFO	1	org.l2jmobius.gameserver.data.xml.KarmaData	KarmaData: Loaded 75 karma modifiers.
+2023.04.16 09:03:48,039	INFO	1	org.l2jmobius.gameserver.data.xml.HitConditionBonusData	HitConditionBonusData: Loaded hit condition bonuses.
+2023.04.16 09:03:48,205	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 89 character templates.
+2023.04.16 09:03:48,205	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 40050 level up gain records.
+2023.04.16 09:03:48,207	INFO	1	org.l2jmobius.gameserver.data.sql.CharNameTable	CharNameTable: Loaded 2 char names.
+2023.04.16 09:03:48,210	INFO	1	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 10 access levels.
+2023.04.16 09:03:48,213	INFO	1	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 435 access commands.
+2023.04.16 09:03:48,405	INFO	1	org.l2jmobius.gameserver.data.xml.PetDataTable	PetDataTable: Loaded 53 pets.
+2023.04.16 09:03:48,427	INFO	1	org.l2jmobius.gameserver.data.xml.CubicData	CubicData: Loaded 21 cubics.
+2023.04.16 09:03:48,433	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2023.04.16 09:03:48,438	INFO	1	org.l2jmobius.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+2023.04.16 09:03:48,439	INFO	1	org.l2jmobius.gameserver.data.sql.ClanTable	ClanTable: Restored 0 clans from the database.
+2023.04.16 09:03:48,442	INFO	1	org.l2jmobius.gameserver.data.xml.ResidenceFunctionsData	ResidenceFunctionsData: Loaded 8 functions.
+2023.04.16 09:03:48,491	INFO	1	org.l2jmobius.gameserver.data.xml.ClanHallData	ClanHallData: Succesfully loaded 42 clan halls.
+2023.04.16 09:03:48,493	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanHallAuctionManager	ClanHallAuctionManager: Clan Hall Auction has started!
+2023.04.16 09:03:48,505	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 clan entries.
+2023.04.16 09:03:48,505	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 players in waiting list.
+2023.04.16 09:03:48,506	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 player applications.
+2023.04.16 09:03:48,506	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2023.04.16 09:03:48,552	INFO	1	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Loaded 0 regions.
+2023.04.16 09:03:48,552	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2023.04.16 09:03:49,044	INFO	1	org.l2jmobius.gameserver.data.xml.NpcData	NpcData: Loaded 4317 NPCs.
+2023.04.16 09:03:49,054	INFO	1	org.l2jmobius.gameserver.data.xml.NpcData	NpcData: Loaded 15 custom NPCs.
+2023.04.16 09:03:49,055	INFO	1	org.l2jmobius.gameserver.data.xml.FakePlayerData	FakePlayerData: Disabled.
+2023.04.16 09:03:49,056	INFO	1	org.l2jmobius.gameserver.instancemanager.FakePlayerChatManager	FakePlayerChatManager: Disabled.
+2023.04.16 09:03:49,218	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Loaded 19720 spawns
+2023.04.16 09:03:49,224	INFO	1	org.l2jmobius.gameserver.instancemanager.WalkingManager	WalkingManager: Loaded 1 walking routes.
+2023.04.16 09:03:49,231	INFO	1	org.l2jmobius.gameserver.data.xml.StaticObjectData	StaticObjectData: Loaded 86 static object templates.
+2023.04.16 09:03:49,232	INFO	1	org.l2jmobius.gameserver.instancemanager.ItemAuctionManager	ItemAuctionManager: Disabled.
+2023.04.16 09:03:49,245	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManager	CastleManager: Loaded 5 castles.
+2023.04.16 09:03:49,250	INFO	1	org.l2jmobius.gameserver.data.SchemeBufferTable	SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+2023.04.16 09:03:49,254	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Queen Ant(29001) status is 0
+2023.04.16 09:03:49,254	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Core(29006) status is 0
+2023.04.16 09:03:49,254	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Orfen(29014) status is 0
+2023.04.16 09:03:49,254	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29068) status is 0
+2023.04.16 09:03:49,254	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 4 instances.
+2023.04.16 09:03:49,255	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Instance ]
+2023.04.16 09:03:49,258	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 4 instance names.
+2023.04.16 09:03:49,263	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 1 instance templates.
+2023.04.16 09:03:49,263	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded instance reenter times for 0 players.
+2023.04.16 09:03:49,263	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2023.04.16 09:03:49,266	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Disabled.
+2023.04.16 09:03:49,268	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2023.04.16 09:03:49,268	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Html cache start...
+2023.04.16 09:03:49,348	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/29025.htm contains non ASCII content.
+2023.04.16 09:03:49,348	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30010.htm contains non ASCII content.
+2023.04.16 09:03:49,348	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30013.htm contains non ASCII content.
+2023.04.16 09:03:49,349	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30014.htm contains non ASCII content.
+2023.04.16 09:03:49,349	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30016.htm contains non ASCII content.
+2023.04.16 09:03:49,349	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30022.htm contains non ASCII content.
+2023.04.16 09:03:49,349	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30027.htm contains non ASCII content.
+2023.04.16 09:03:49,350	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30028.htm contains non ASCII content.
+2023.04.16 09:03:49,350	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30029.htm contains non ASCII content.
+2023.04.16 09:03:49,350	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30030.htm contains non ASCII content.
+2023.04.16 09:03:49,350	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30032-1.htm contains non ASCII content.
+2023.04.16 09:03:49,351	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30032.htm contains non ASCII content.
+2023.04.16 09:03:49,351	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30033-1.htm contains non ASCII content.
+2023.04.16 09:03:49,351	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30033.htm contains non ASCII content.
+2023.04.16 09:03:49,351	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30034.htm contains non ASCII content.
+2023.04.16 09:03:49,352	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30035-1.htm contains non ASCII content.
+2023.04.16 09:03:49,352	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30035.htm contains non ASCII content.
+2023.04.16 09:03:49,352	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30036.htm contains non ASCII content.
+2023.04.16 09:03:49,352	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30048.htm contains non ASCII content.
+2023.04.16 09:03:49,353	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30049.htm contains non ASCII content.
+2023.04.16 09:03:49,353	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30050.htm contains non ASCII content.
+2023.04.16 09:03:49,353	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30051.htm contains non ASCII content.
+2023.04.16 09:03:49,353	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30064.htm contains non ASCII content.
+2023.04.16 09:03:49,353	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30065.htm contains non ASCII content.
+2023.04.16 09:03:49,354	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30067.htm contains non ASCII content.
+2023.04.16 09:03:49,354	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30068.htm contains non ASCII content.
+2023.04.16 09:03:49,354	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30069.htm contains non ASCII content.
+2023.04.16 09:03:49,354	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30105.htm contains non ASCII content.
+2023.04.16 09:03:49,355	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30106.htm contains non ASCII content.
+2023.04.16 09:03:49,355	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30107.htm contains non ASCII content.
+2023.04.16 09:03:49,355	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30108.htm contains non ASCII content.
+2023.04.16 09:03:49,355	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30110.htm contains non ASCII content.
+2023.04.16 09:03:49,356	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30111-1.htm contains non ASCII content.
+2023.04.16 09:03:49,356	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30111.htm contains non ASCII content.
+2023.04.16 09:03:49,356	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30112-1.htm contains non ASCII content.
+2023.04.16 09:03:49,357	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30112.htm contains non ASCII content.
+2023.04.16 09:03:49,357	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30113-1.htm contains non ASCII content.
+2023.04.16 09:03:49,357	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30113-2.htm contains non ASCII content.
+2023.04.16 09:03:49,357	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30113.htm contains non ASCII content.
+2023.04.16 09:03:49,358	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30114.htm contains non ASCII content.
+2023.04.16 09:03:49,358	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30116.htm contains non ASCII content.
+2023.04.16 09:03:49,358	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30117.htm contains non ASCII content.
+2023.04.16 09:03:49,359	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30118.htm contains non ASCII content.
+2023.04.16 09:03:49,359	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30119.htm contains non ASCII content.
+2023.04.16 09:03:49,360	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30129.htm contains non ASCII content.
+2023.04.16 09:03:49,360	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30130-1.htm contains non ASCII content.
+2023.04.16 09:03:49,360	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30130-2.htm contains non ASCII content.
+2023.04.16 09:03:49,360	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30130.htm contains non ASCII content.
+2023.04.16 09:03:49,360	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30132.htm contains non ASCII content.
+2023.04.16 09:03:49,361	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30133.htm contains non ASCII content.
+2023.04.16 09:03:49,361	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30141-1.htm contains non ASCII content.
+2023.04.16 09:03:49,361	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30141.htm contains non ASCII content.
+2023.04.16 09:03:49,361	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30143.htm contains non ASCII content.
+2023.04.16 09:03:49,362	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30144.htm contains non ASCII content.
+2023.04.16 09:03:49,362	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30145.htm contains non ASCII content.
+2023.04.16 09:03:49,362	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30155.htm contains non ASCII content.
+2023.04.16 09:03:49,362	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30156.htm contains non ASCII content.
+2023.04.16 09:03:49,362	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30157.htm contains non ASCII content.
+2023.04.16 09:03:49,363	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30158.htm contains non ASCII content.
+2023.04.16 09:03:49,363	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30171-1.htm contains non ASCII content.
+2023.04.16 09:03:49,363	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30171.htm contains non ASCII content.
+2023.04.16 09:03:49,363	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30184.htm contains non ASCII content.
+2023.04.16 09:03:49,364	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30185.htm contains non ASCII content.
+2023.04.16 09:03:49,364	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30186.htm contains non ASCII content.
+2023.04.16 09:03:49,364	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30188.htm contains non ASCII content.
+2023.04.16 09:03:49,364	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30189.htm contains non ASCII content.
+2023.04.16 09:03:49,364	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30190.htm contains non ASCII content.
+2023.04.16 09:03:49,365	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30192.htm contains non ASCII content.
+2023.04.16 09:03:49,365	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30194.htm contains non ASCII content.
+2023.04.16 09:03:49,365	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30222.htm contains non ASCII content.
+2023.04.16 09:03:49,365	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30223.htm contains non ASCII content.
+2023.04.16 09:03:49,366	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30291-1.htm contains non ASCII content.
+2023.04.16 09:03:49,366	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30291.htm contains non ASCII content.
+2023.04.16 09:03:49,366	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30293.htm contains non ASCII content.
+2023.04.16 09:03:49,366	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30305-1.htm contains non ASCII content.
+2023.04.16 09:03:49,367	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30305.htm contains non ASCII content.
+2023.04.16 09:03:49,367	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30311-1.htm contains non ASCII content.
+2023.04.16 09:03:49,367	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30311-2.htm contains non ASCII content.
+2023.04.16 09:03:49,367	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30311.htm contains non ASCII content.
+2023.04.16 09:03:49,367	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30312.htm contains non ASCII content.
+2023.04.16 09:03:49,368	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30325.htm contains non ASCII content.
+2023.04.16 09:03:49,368	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30326.htm contains non ASCII content.
+2023.04.16 09:03:49,368	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30327.htm contains non ASCII content.
+2023.04.16 09:03:49,368	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30328.htm contains non ASCII content.
+2023.04.16 09:03:49,368	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30329.htm contains non ASCII content.
+2023.04.16 09:03:49,369	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30330.htm contains non ASCII content.
+2023.04.16 09:03:49,369	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30342.htm contains non ASCII content.
+2023.04.16 09:03:49,369	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30344.htm contains non ASCII content.
+2023.04.16 09:03:49,369	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30345.htm contains non ASCII content.
+2023.04.16 09:03:49,369	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30351.htm contains non ASCII content.
+2023.04.16 09:03:49,370	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30352.htm contains non ASCII content.
+2023.04.16 09:03:49,370	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30353.htm contains non ASCII content.
+2023.04.16 09:03:49,370	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30354.htm contains non ASCII content.
+2023.04.16 09:03:49,370	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30359-1.htm contains non ASCII content.
+2023.04.16 09:03:49,370	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30359-2.htm contains non ASCII content.
+2023.04.16 09:03:49,371	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30359.htm contains non ASCII content.
+2023.04.16 09:03:49,371	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30360.htm contains non ASCII content.
+2023.04.16 09:03:49,371	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30361.htm contains non ASCII content.
+2023.04.16 09:03:49,371	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30362.htm contains non ASCII content.
+2023.04.16 09:03:49,372	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30368.htm contains non ASCII content.
+2023.04.16 09:03:49,372	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30369.htm contains non ASCII content.
+2023.04.16 09:03:49,372	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30370.htm contains non ASCII content.
+2023.04.16 09:03:49,372	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30371-1.htm contains non ASCII content.
+2023.04.16 09:03:49,373	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30371.htm contains non ASCII content.
+2023.04.16 09:03:49,373	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30374.htm contains non ASCII content.
+2023.04.16 09:03:49,373	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30375.htm contains non ASCII content.
+2023.04.16 09:03:49,373	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30376.htm contains non ASCII content.
+2023.04.16 09:03:49,374	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30377.htm contains non ASCII content.
+2023.04.16 09:03:49,374	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30378.htm contains non ASCII content.
+2023.04.16 09:03:49,374	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30391.htm contains non ASCII content.
+2023.04.16 09:03:49,375	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30405-1.htm contains non ASCII content.
+2023.04.16 09:03:49,375	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30405-2.htm contains non ASCII content.
+2023.04.16 09:03:49,375	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30405.htm contains non ASCII content.
+2023.04.16 09:03:49,375	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30406-1.htm contains non ASCII content.
+2023.04.16 09:03:49,375	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30406-2.htm contains non ASCII content.
+2023.04.16 09:03:49,376	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30406.htm contains non ASCII content.
+2023.04.16 09:03:49,376	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30407-1.htm contains non ASCII content.
+2023.04.16 09:03:49,376	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30407.htm contains non ASCII content.
+2023.04.16 09:03:49,376	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30408-1.htm contains non ASCII content.
+2023.04.16 09:03:49,376	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30408.htm contains non ASCII content.
+2023.04.16 09:03:49,377	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30409.htm contains non ASCII content.
+2023.04.16 09:03:49,377	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30410.htm contains non ASCII content.
+2023.04.16 09:03:49,377	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30411.htm contains non ASCII content.
+2023.04.16 09:03:49,377	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30412.htm contains non ASCII content.
+2023.04.16 09:03:49,377	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30413.htm contains non ASCII content.
+2023.04.16 09:03:49,377	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30414.htm contains non ASCII content.
+2023.04.16 09:03:49,378	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30415.htm contains non ASCII content.
+2023.04.16 09:03:49,378	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30416.htm contains non ASCII content.
+2023.04.16 09:03:49,378	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30417-1.htm contains non ASCII content.
+2023.04.16 09:03:49,378	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30417-2.htm contains non ASCII content.
+2023.04.16 09:03:49,378	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30417.htm contains non ASCII content.
+2023.04.16 09:03:49,379	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30418.htm contains non ASCII content.
+2023.04.16 09:03:49,379	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30419.htm contains non ASCII content.
+2023.04.16 09:03:49,379	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30421.htm contains non ASCII content.
+2023.04.16 09:03:49,379	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30422.htm contains non ASCII content.
+2023.04.16 09:03:49,379	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30423-1.htm contains non ASCII content.
+2023.04.16 09:03:49,380	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30423.htm contains non ASCII content.
+2023.04.16 09:03:49,380	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30424.htm contains non ASCII content.
+2023.04.16 09:03:49,380	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30425-1.htm contains non ASCII content.
+2023.04.16 09:03:49,380	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30425.htm contains non ASCII content.
+2023.04.16 09:03:49,380	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30426.htm contains non ASCII content.
+2023.04.16 09:03:49,380	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30428.htm contains non ASCII content.
+2023.04.16 09:03:49,381	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30434.htm contains non ASCII content.
+2023.04.16 09:03:49,381	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30435-1.htm contains non ASCII content.
+2023.04.16 09:03:49,381	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30435.htm contains non ASCII content.
+2023.04.16 09:03:49,381	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30459.htm contains non ASCII content.
+2023.04.16 09:03:49,381	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30460.htm contains non ASCII content.
+2023.04.16 09:03:49,382	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30461.htm contains non ASCII content.
+2023.04.16 09:03:49,382	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30463.htm contains non ASCII content.
+2023.04.16 09:03:49,382	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30464.htm contains non ASCII content.
+2023.04.16 09:03:49,382	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30469.htm contains non ASCII content.
+2023.04.16 09:03:49,383	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30472.htm contains non ASCII content.
+2023.04.16 09:03:49,383	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30473.htm contains non ASCII content.
+2023.04.16 09:03:49,383	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30475.htm contains non ASCII content.
+2023.04.16 09:03:49,383	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30476.htm contains non ASCII content.
+2023.04.16 09:03:49,383	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30477.htm contains non ASCII content.
+2023.04.16 09:03:49,383	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30497.htm contains non ASCII content.
+2023.04.16 09:03:49,384	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30501-1.htm contains non ASCII content.
+2023.04.16 09:03:49,384	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30501.htm contains non ASCII content.
+2023.04.16 09:03:49,384	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30502.htm contains non ASCII content.
+2023.04.16 09:03:49,384	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30506.htm contains non ASCII content.
+2023.04.16 09:03:49,384	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30507.htm contains non ASCII content.
+2023.04.16 09:03:49,384	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30509.htm contains non ASCII content.
+2023.04.16 09:03:49,385	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30510.htm contains non ASCII content.
+2023.04.16 09:03:49,385	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30514.htm contains non ASCII content.
+2023.04.16 09:03:49,385	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30515.htm contains non ASCII content.
+2023.04.16 09:03:49,385	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30523-1.htm contains non ASCII content.
+2023.04.16 09:03:49,385	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30523-2.htm contains non ASCII content.
+2023.04.16 09:03:49,386	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30523.htm contains non ASCII content.
+2023.04.16 09:03:49,386	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30524-1.htm contains non ASCII content.
+2023.04.16 09:03:49,386	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30524-2.htm contains non ASCII content.
+2023.04.16 09:03:49,386	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30524.htm contains non ASCII content.
+2023.04.16 09:03:49,386	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30529.htm contains non ASCII content.
+2023.04.16 09:03:49,387	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30531-1.htm contains non ASCII content.
+2023.04.16 09:03:49,387	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30531-2.htm contains non ASCII content.
+2023.04.16 09:03:49,387	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30531-3.htm contains non ASCII content.
+2023.04.16 09:03:49,387	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30531.htm contains non ASCII content.
+2023.04.16 09:03:49,387	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30532-1.htm contains non ASCII content.
+2023.04.16 09:03:49,387	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30532-2.htm contains non ASCII content.
+2023.04.16 09:03:49,388	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30532.htm contains non ASCII content.
+2023.04.16 09:03:49,388	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30533-1.htm contains non ASCII content.
+2023.04.16 09:03:49,388	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30533-2.htm contains non ASCII content.
+2023.04.16 09:03:49,388	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30533.htm contains non ASCII content.
+2023.04.16 09:03:49,388	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30534-1.htm contains non ASCII content.
+2023.04.16 09:03:49,388	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30534.htm contains non ASCII content.
+2023.04.16 09:03:49,389	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30535-1.htm contains non ASCII content.
+2023.04.16 09:03:49,389	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30535-2.htm contains non ASCII content.
+2023.04.16 09:03:49,389	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30535.htm contains non ASCII content.
+2023.04.16 09:03:49,389	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30536-1.htm contains non ASCII content.
+2023.04.16 09:03:49,389	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30536.htm contains non ASCII content.
+2023.04.16 09:03:49,389	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30537.htm contains non ASCII content.
+2023.04.16 09:03:49,389	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30538.htm contains non ASCII content.
+2023.04.16 09:03:49,390	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30539-1.htm contains non ASCII content.
+2023.04.16 09:03:49,390	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30539.htm contains non ASCII content.
+2023.04.16 09:03:49,390	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30550.htm contains non ASCII content.
+2023.04.16 09:03:49,390	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30553.htm contains non ASCII content.
+2023.04.16 09:03:49,390	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30554.htm contains non ASCII content.
+2023.04.16 09:03:49,391	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30555.htm contains non ASCII content.
+2023.04.16 09:03:49,391	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30557.htm contains non ASCII content.
+2023.04.16 09:03:49,391	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30566-1.htm contains non ASCII content.
+2023.04.16 09:03:49,391	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30566-2.htm contains non ASCII content.
+2023.04.16 09:03:49,391	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30566.htm contains non ASCII content.
+2023.04.16 09:03:49,391	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30567-1.htm contains non ASCII content.
+2023.04.16 09:03:49,392	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30567-2.htm contains non ASCII content.
+2023.04.16 09:03:49,392	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30567.htm contains non ASCII content.
+2023.04.16 09:03:49,392	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30568.htm contains non ASCII content.
+2023.04.16 09:03:49,392	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30569-1.htm contains non ASCII content.
+2023.04.16 09:03:49,392	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30569.htm contains non ASCII content.
+2023.04.16 09:03:49,393	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30570-1.htm contains non ASCII content.
+2023.04.16 09:03:49,393	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30570.htm contains non ASCII content.
+2023.04.16 09:03:49,393	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30571-1.htm contains non ASCII content.
+2023.04.16 09:03:49,393	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30571.htm contains non ASCII content.
+2023.04.16 09:03:49,393	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30572-1.htm contains non ASCII content.
+2023.04.16 09:03:49,394	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30572.htm contains non ASCII content.
+2023.04.16 09:03:49,394	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30585.htm contains non ASCII content.
+2023.04.16 09:03:49,394	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30587.htm contains non ASCII content.
+2023.04.16 09:03:49,394	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30590.htm contains non ASCII content.
+2023.04.16 09:03:49,394	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30591.htm contains non ASCII content.
+2023.04.16 09:03:49,395	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30592.htm contains non ASCII content.
+2023.04.16 09:03:49,395	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30593.htm contains non ASCII content.
+2023.04.16 09:03:49,395	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30597.htm contains non ASCII content.
+2023.04.16 09:03:49,395	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599-1.htm contains non ASCII content.
+2023.04.16 09:03:49,396	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599-2.htm contains non ASCII content.
+2023.04.16 09:03:49,396	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599-3.htm contains non ASCII content.
+2023.04.16 09:03:49,396	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599-4.htm contains non ASCII content.
+2023.04.16 09:03:49,396	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599-5.htm contains non ASCII content.
+2023.04.16 09:03:49,396	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599-6.htm contains non ASCII content.
+2023.04.16 09:03:49,397	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599-7.htm contains non ASCII content.
+2023.04.16 09:03:49,397	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599-8.htm contains non ASCII content.
+2023.04.16 09:03:49,397	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599-9.htm contains non ASCII content.
+2023.04.16 09:03:49,397	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30599.htm contains non ASCII content.
+2023.04.16 09:03:49,398	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30608.htm contains non ASCII content.
+2023.04.16 09:03:49,398	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30609-1.htm contains non ASCII content.
+2023.04.16 09:03:49,398	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30609.htm contains non ASCII content.
+2023.04.16 09:03:49,398	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30610.htm contains non ASCII content.
+2023.04.16 09:03:49,398	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30611.htm contains non ASCII content.
+2023.04.16 09:03:49,399	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30612.htm contains non ASCII content.
+2023.04.16 09:03:49,399	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30614.htm contains non ASCII content.
+2023.04.16 09:03:49,399	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30615.htm contains non ASCII content.
+2023.04.16 09:03:49,399	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30616.htm contains non ASCII content.
+2023.04.16 09:03:49,399	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30617.htm contains non ASCII content.
+2023.04.16 09:03:49,400	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30618.htm contains non ASCII content.
+2023.04.16 09:03:49,400	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30619.htm contains non ASCII content.
+2023.04.16 09:03:49,400	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30620.htm contains non ASCII content.
+2023.04.16 09:03:49,400	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30621.htm contains non ASCII content.
+2023.04.16 09:03:49,401	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30622-1.htm contains non ASCII content.
+2023.04.16 09:03:49,401	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30622.htm contains non ASCII content.
+2023.04.16 09:03:49,401	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30623.htm contains non ASCII content.
+2023.04.16 09:03:49,401	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30624.htm contains non ASCII content.
+2023.04.16 09:03:49,402	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30625.htm contains non ASCII content.
+2023.04.16 09:03:49,402	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30626.htm contains non ASCII content.
+2023.04.16 09:03:49,402	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30627.htm contains non ASCII content.
+2023.04.16 09:03:49,402	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30629.htm contains non ASCII content.
+2023.04.16 09:03:49,403	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30630.htm contains non ASCII content.
+2023.04.16 09:03:49,403	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30631.htm contains non ASCII content.
+2023.04.16 09:03:49,403	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30632.htm contains non ASCII content.
+2023.04.16 09:03:49,403	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30633.htm contains non ASCII content.
+2023.04.16 09:03:49,403	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30634-1.htm contains non ASCII content.
+2023.04.16 09:03:49,404	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30634.htm contains non ASCII content.
+2023.04.16 09:03:49,404	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30635.htm contains non ASCII content.
+2023.04.16 09:03:49,404	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30636.htm contains non ASCII content.
+2023.04.16 09:03:49,404	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30637.htm contains non ASCII content.
+2023.04.16 09:03:49,404	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30638.htm contains non ASCII content.
+2023.04.16 09:03:49,405	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30639.htm contains non ASCII content.
+2023.04.16 09:03:49,405	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30640.htm contains non ASCII content.
+2023.04.16 09:03:49,405	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30641.htm contains non ASCII content.
+2023.04.16 09:03:49,405	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30642.htm contains non ASCII content.
+2023.04.16 09:03:49,405	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30644.htm contains non ASCII content.
+2023.04.16 09:03:49,406	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30645.htm contains non ASCII content.
+2023.04.16 09:03:49,406	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30646.htm contains non ASCII content.
+2023.04.16 09:03:49,406	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30648.htm contains non ASCII content.
+2023.04.16 09:03:49,406	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30649.htm contains non ASCII content.
+2023.04.16 09:03:49,406	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30650.htm contains non ASCII content.
+2023.04.16 09:03:49,407	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30651.htm contains non ASCII content.
+2023.04.16 09:03:49,407	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30652.htm contains non ASCII content.
+2023.04.16 09:03:49,407	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30653.htm contains non ASCII content.
+2023.04.16 09:03:49,407	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30654.htm contains non ASCII content.
+2023.04.16 09:03:49,407	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30655.htm contains non ASCII content.
+2023.04.16 09:03:49,408	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30657.htm contains non ASCII content.
+2023.04.16 09:03:49,408	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30658.htm contains non ASCII content.
+2023.04.16 09:03:49,408	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30660.htm contains non ASCII content.
+2023.04.16 09:03:49,408	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30661.htm contains non ASCII content.
+2023.04.16 09:03:49,408	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30662.htm contains non ASCII content.
+2023.04.16 09:03:49,409	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30663.htm contains non ASCII content.
+2023.04.16 09:03:49,409	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30664.htm contains non ASCII content.
+2023.04.16 09:03:49,409	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30665.htm contains non ASCII content.
+2023.04.16 09:03:49,409	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30666.htm contains non ASCII content.
+2023.04.16 09:03:49,409	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30667.htm contains non ASCII content.
+2023.04.16 09:03:49,409	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30668.htm contains non ASCII content.
+2023.04.16 09:03:49,410	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30669.htm contains non ASCII content.
+2023.04.16 09:03:49,410	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30670.htm contains non ASCII content.
+2023.04.16 09:03:49,410	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30671.htm contains non ASCII content.
+2023.04.16 09:03:49,410	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30672.htm contains non ASCII content.
+2023.04.16 09:03:49,410	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30673.htm contains non ASCII content.
+2023.04.16 09:03:49,411	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30674.htm contains non ASCII content.
+2023.04.16 09:03:49,411	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30675.htm contains non ASCII content.
+2023.04.16 09:03:49,411	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30679.htm contains non ASCII content.
+2023.04.16 09:03:49,411	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30680.htm contains non ASCII content.
+2023.04.16 09:03:49,411	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30682.htm contains non ASCII content.
+2023.04.16 09:03:49,411	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30683.htm contains non ASCII content.
+2023.04.16 09:03:49,411	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30690.htm contains non ASCII content.
+2023.04.16 09:03:49,412	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30691.htm contains non ASCII content.
+2023.04.16 09:03:49,412	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30692.htm contains non ASCII content.
+2023.04.16 09:03:49,412	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30693.htm contains non ASCII content.
+2023.04.16 09:03:49,412	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30695.htm contains non ASCII content.
+2023.04.16 09:03:49,412	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30696.htm contains non ASCII content.
+2023.04.16 09:03:49,412	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30697.htm contains non ASCII content.
+2023.04.16 09:03:49,412	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30698.htm contains non ASCII content.
+2023.04.16 09:03:49,413	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30700.htm contains non ASCII content.
+2023.04.16 09:03:49,413	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30701.htm contains non ASCII content.
+2023.04.16 09:03:49,413	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30702.htm contains non ASCII content.
+2023.04.16 09:03:49,413	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30703-1.htm contains non ASCII content.
+2023.04.16 09:03:49,413	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30703-2.htm contains non ASCII content.
+2023.04.16 09:03:49,413	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30703.htm contains non ASCII content.
+2023.04.16 09:03:49,413	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30705.htm contains non ASCII content.
+2023.04.16 09:03:49,414	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30706.htm contains non ASCII content.
+2023.04.16 09:03:49,414	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30715-1.htm contains non ASCII content.
+2023.04.16 09:03:49,414	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30715.htm contains non ASCII content.
+2023.04.16 09:03:49,414	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30717.htm contains non ASCII content.
+2023.04.16 09:03:49,414	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30718-1.htm contains non ASCII content.
+2023.04.16 09:03:49,414	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30718.htm contains non ASCII content.
+2023.04.16 09:03:49,415	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30720.htm contains non ASCII content.
+2023.04.16 09:03:49,415	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30721.htm contains non ASCII content.
+2023.04.16 09:03:49,415	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30728.htm contains non ASCII content.
+2023.04.16 09:03:49,415	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30729.htm contains non ASCII content.
+2023.04.16 09:03:49,415	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30730.htm contains non ASCII content.
+2023.04.16 09:03:49,415	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30735-1.htm contains non ASCII content.
+2023.04.16 09:03:49,415	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30735-2.htm contains non ASCII content.
+2023.04.16 09:03:49,416	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30735.htm contains non ASCII content.
+2023.04.16 09:03:49,416	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30736-1.htm contains non ASCII content.
+2023.04.16 09:03:49,416	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30736.htm contains non ASCII content.
+2023.04.16 09:03:49,416	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30737.htm contains non ASCII content.
+2023.04.16 09:03:49,416	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30738.htm contains non ASCII content.
+2023.04.16 09:03:49,417	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30744.htm contains non ASCII content.
+2023.04.16 09:03:49,417	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30745.htm contains non ASCII content.
+2023.04.16 09:03:49,417	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30746.htm contains non ASCII content.
+2023.04.16 09:03:49,417	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30747.htm contains non ASCII content.
+2023.04.16 09:03:49,417	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30748.htm contains non ASCII content.
+2023.04.16 09:03:49,417	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30749.htm contains non ASCII content.
+2023.04.16 09:03:49,418	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30750.htm contains non ASCII content.
+2023.04.16 09:03:49,418	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30751.htm contains non ASCII content.
+2023.04.16 09:03:49,418	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30752.htm contains non ASCII content.
+2023.04.16 09:03:49,418	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30754.htm contains non ASCII content.
+2023.04.16 09:03:49,418	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30755-1.htm contains non ASCII content.
+2023.04.16 09:03:49,418	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30755-2.htm contains non ASCII content.
+2023.04.16 09:03:49,418	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30755.htm contains non ASCII content.
+2023.04.16 09:03:49,419	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30756.htm contains non ASCII content.
+2023.04.16 09:03:49,419	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30757.htm contains non ASCII content.
+2023.04.16 09:03:49,419	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30758.htm contains non ASCII content.
+2023.04.16 09:03:49,419	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30759.htm contains non ASCII content.
+2023.04.16 09:03:49,419	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30760.htm contains non ASCII content.
+2023.04.16 09:03:49,420	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30761-1.htm contains non ASCII content.
+2023.04.16 09:03:49,420	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30761.htm contains non ASCII content.
+2023.04.16 09:03:49,420	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30762-1.htm contains non ASCII content.
+2023.04.16 09:03:49,420	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30762.htm contains non ASCII content.
+2023.04.16 09:03:49,420	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30763-1.htm contains non ASCII content.
+2023.04.16 09:03:49,421	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30763.htm contains non ASCII content.
+2023.04.16 09:03:49,421	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30764.htm contains non ASCII content.
+2023.04.16 09:03:49,421	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30832-1.htm contains non ASCII content.
+2023.04.16 09:03:49,421	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30832-2.htm contains non ASCII content.
+2023.04.16 09:03:49,421	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30832-3.htm contains non ASCII content.
+2023.04.16 09:03:49,422	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30832.htm contains non ASCII content.
+2023.04.16 09:03:49,422	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30833-1.htm contains non ASCII content.
+2023.04.16 09:03:49,422	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30833-2.htm contains non ASCII content.
+2023.04.16 09:03:49,422	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30833.htm contains non ASCII content.
+2023.04.16 09:03:49,422	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30835-1.htm contains non ASCII content.
+2023.04.16 09:03:49,423	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30835-2.htm contains non ASCII content.
+2023.04.16 09:03:49,423	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30835.htm contains non ASCII content.
+2023.04.16 09:03:49,423	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30850.htm contains non ASCII content.
+2023.04.16 09:03:49,423	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30851.htm contains non ASCII content.
+2023.04.16 09:03:49,423	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30852.htm contains non ASCII content.
+2023.04.16 09:03:49,423	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30853.htm contains non ASCII content.
+2023.04.16 09:03:49,424	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30855.htm contains non ASCII content.
+2023.04.16 09:03:49,424	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30856.htm contains non ASCII content.
+2023.04.16 09:03:49,424	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30858.htm contains non ASCII content.
+2023.04.16 09:03:49,424	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30859.htm contains non ASCII content.
+2023.04.16 09:03:49,424	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30860.htm contains non ASCII content.
+2023.04.16 09:03:49,425	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30861.htm contains non ASCII content.
+2023.04.16 09:03:49,425	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30863.htm contains non ASCII content.
+2023.04.16 09:03:49,425	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30864-1.htm contains non ASCII content.
+2023.04.16 09:03:49,425	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30864.htm contains non ASCII content.
+2023.04.16 09:03:49,425	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30866.htm contains non ASCII content.
+2023.04.16 09:03:49,425	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30867.htm contains non ASCII content.
+2023.04.16 09:03:49,426	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30870.htm contains non ASCII content.
+2023.04.16 09:03:49,426	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30929.htm contains non ASCII content.
+2023.04.16 09:03:49,426	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30934-1.htm contains non ASCII content.
+2023.04.16 09:03:49,426	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30934-2.htm contains non ASCII content.
+2023.04.16 09:03:49,426	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30934.htm contains non ASCII content.
+2023.04.16 09:03:49,427	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30935-1.htm contains non ASCII content.
+2023.04.16 09:03:49,427	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30935-2.htm contains non ASCII content.
+2023.04.16 09:03:49,427	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30935.htm contains non ASCII content.
+2023.04.16 09:03:49,427	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30938.htm contains non ASCII content.
+2023.04.16 09:03:49,427	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30939.htm contains non ASCII content.
+2023.04.16 09:03:49,427	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30940.htm contains non ASCII content.
+2023.04.16 09:03:49,428	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30941.htm contains non ASCII content.
+2023.04.16 09:03:49,428	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30942.htm contains non ASCII content.
+2023.04.16 09:03:49,428	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30949-1.htm contains non ASCII content.
+2023.04.16 09:03:49,428	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30949-2.htm contains non ASCII content.
+2023.04.16 09:03:49,428	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30949-3.htm contains non ASCII content.
+2023.04.16 09:03:49,428	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30949-4.htm contains non ASCII content.
+2023.04.16 09:03:49,428	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30949-5.htm contains non ASCII content.
+2023.04.16 09:03:49,429	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30949.htm contains non ASCII content.
+2023.04.16 09:03:49,429	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30950-1.htm contains non ASCII content.
+2023.04.16 09:03:49,429	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30950-2.htm contains non ASCII content.
+2023.04.16 09:03:49,429	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30950-3.htm contains non ASCII content.
+2023.04.16 09:03:49,429	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30950.htm contains non ASCII content.
+2023.04.16 09:03:49,429	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30951-1.htm contains non ASCII content.
+2023.04.16 09:03:49,430	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30951-2.htm contains non ASCII content.
+2023.04.16 09:03:49,430	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30951-3.htm contains non ASCII content.
+2023.04.16 09:03:49,430	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30951.htm contains non ASCII content.
+2023.04.16 09:03:49,430	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30952.htm contains non ASCII content.
+2023.04.16 09:03:49,430	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30953.htm contains non ASCII content.
+2023.04.16 09:03:49,430	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30954.htm contains non ASCII content.
+2023.04.16 09:03:49,431	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30956-1.htm contains non ASCII content.
+2023.04.16 09:03:49,431	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30956.htm contains non ASCII content.
+2023.04.16 09:03:49,431	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30957.htm contains non ASCII content.
+2023.04.16 09:03:49,431	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30959.htm contains non ASCII content.
+2023.04.16 09:03:49,431	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30960.htm contains non ASCII content.
+2023.04.16 09:03:49,431	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30961.htm contains non ASCII content.
+2023.04.16 09:03:49,432	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30977.htm contains non ASCII content.
+2023.04.16 09:03:49,432	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30978.htm contains non ASCII content.
+2023.04.16 09:03:49,432	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30979.htm contains non ASCII content.
+2023.04.16 09:03:49,432	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30981.htm contains non ASCII content.
+2023.04.16 09:03:49,432	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995-1.htm contains non ASCII content.
+2023.04.16 09:03:49,432	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995-2.htm contains non ASCII content.
+2023.04.16 09:03:49,433	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995-3.htm contains non ASCII content.
+2023.04.16 09:03:49,433	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995-4.htm contains non ASCII content.
+2023.04.16 09:03:49,433	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995-5.htm contains non ASCII content.
+2023.04.16 09:03:49,433	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995-6.htm contains non ASCII content.
+2023.04.16 09:03:49,433	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995-7.htm contains non ASCII content.
+2023.04.16 09:03:49,434	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995-8.htm contains non ASCII content.
+2023.04.16 09:03:49,434	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995-9.htm contains non ASCII content.
+2023.04.16 09:03:49,434	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/30995.htm contains non ASCII content.
+2023.04.16 09:03:49,434	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31001.htm contains non ASCII content.
+2023.04.16 09:03:49,434	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31002-1.htm contains non ASCII content.
+2023.04.16 09:03:49,434	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31002-2.htm contains non ASCII content.
+2023.04.16 09:03:49,435	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31002-3.htm contains non ASCII content.
+2023.04.16 09:03:49,435	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31002-4.htm contains non ASCII content.
+2023.04.16 09:03:49,435	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31002-5.htm contains non ASCII content.
+2023.04.16 09:03:49,435	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31002.htm contains non ASCII content.
+2023.04.16 09:03:49,435	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31043.htm contains non ASCII content.
+2023.04.16 09:03:49,435	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31210.htm contains non ASCII content.
+2023.04.16 09:03:49,436	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31613.htm contains non ASCII content.
+2023.04.16 09:03:49,436	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31614.htm contains non ASCII content.
+2023.04.16 09:03:49,436	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31842.htm contains non ASCII content.
+2023.04.16 09:03:49,436	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31845.htm contains non ASCII content.
+2023.04.16 09:03:49,436	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31848.htm contains non ASCII content.
+2023.04.16 09:03:49,436	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31850.htm contains non ASCII content.
+2023.04.16 09:03:49,437	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31851.htm contains non ASCII content.
+2023.04.16 09:03:49,437	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31852.htm contains non ASCII content.
+2023.04.16 09:03:49,437	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31853.htm contains non ASCII content.
+2023.04.16 09:03:49,437	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/31859.htm contains non ASCII content.
+2023.04.16 09:03:49,438	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/33359-1.htm contains non ASCII content.
+2023.04.16 09:03:49,438	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/33359.htm contains non ASCII content.
+2023.04.16 09:03:49,438	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/BlessingOfProtection.htm contains non ASCII content.
+2023.04.16 09:03:49,438	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/SupportBlessingHighLevel.htm contains non ASCII content.
+2023.04.16 09:03:49,438	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/SupportMagic.htm contains non ASCII content.
+2023.04.16 09:03:49,439	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/SupportMagicHighLevel.htm contains non ASCII content.
+2023.04.16 09:03:49,439	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/SupportMagicLowLevel.htm contains non ASCII content.
+2023.04.16 09:03:49,439	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/SupportMagicNoSummon.htm contains non ASCII content.
+2023.04.16 09:03:49,439	WARNING	1	org.l2jmobius.gameserver.cache.HtmCache	HTML encoding check: File data/html/default/SupportMagicServitor.htm contains non ASCII content.
+2023.04.16 09:03:50,144	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: 4.159 megabytes on 6437 files loaded.
+2023.04.16 09:03:50,146	INFO	1	org.l2jmobius.gameserver.data.sql.CrestTable	CrestTable: Loaded 0 Crests.
+2023.04.16 09:03:50,372	INFO	1	org.l2jmobius.gameserver.data.xml.TeleporterData	TeleporterData: Loaded 85 npc teleporters.
+2023.04.16 09:03:50,393	INFO	1	org.l2jmobius.gameserver.data.xml.TransformData	TransformData: Loaded 14 transform templates.
+2023.04.16 09:03:50,402	INFO	1	org.l2jmobius.gameserver.data.BotReportTable	BotReportTable: Loaded 0 bot reports
+2023.04.16 09:03:50,403	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2023.04.16 09:03:50,406	INFO	1	org.l2jmobius.gameserver.instancemanager.AirShipManager	AirShipManager: Loaded 0 private airships
+2023.04.16 09:03:50,412	INFO	1	org.l2jmobius.gameserver.data.xml.ShuttleData	ShuttleData: Loaded 3 shuttles.
+2023.04.16 09:03:50,412	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Loading server scripts:
+2023.04.16 09:03:52,073	INFO	1	handlers.MasterHandler	Loading Handlers...
+2023.04.16 09:03:52,127	INFO	1	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2023.04.16 09:03:52,127	INFO	1	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2023.04.16 09:03:52,127	INFO	1	handlers.MasterHandler	AdminCommandHandler: Loaded 428 handlers.
+2023.04.16 09:03:52,127	INFO	1	handlers.MasterHandler	BypassHandler: Loaded 29 handlers.
+2023.04.16 09:03:52,127	INFO	1	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2023.04.16 09:03:52,127	INFO	1	handlers.MasterHandler	CommunityBoardHandler: Loaded 24 handlers.
+2023.04.16 09:03:52,127	INFO	1	handlers.MasterHandler	ItemHandler: Loaded 31 handlers.
+2023.04.16 09:03:52,128	INFO	1	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2023.04.16 09:03:52,128	INFO	1	handlers.MasterHandler	UserCommandHandler: Loaded 16 handlers.
+2023.04.16 09:03:52,128	INFO	1	handlers.MasterHandler	VoicedCommandHandler: Loaded 7 handlers.
+2023.04.16 09:03:52,128	INFO	1	handlers.MasterHandler	TargetHandler: Loaded 21 handlers.
+2023.04.16 09:03:52,128	INFO	1	handlers.MasterHandler	AffectObjectHandler: Loaded 11 handlers.
+2023.04.16 09:03:52,128	INFO	1	handlers.MasterHandler	AffectScopeHandler: Loaded 19 handlers.
+2023.04.16 09:03:52,128	INFO	1	handlers.MasterHandler	PlayerActionHandler: Loaded 24 handlers.
+2023.04.16 09:03:52,128	INFO	1	handlers.MasterHandler	Handlers Loaded...
+2023.04.16 09:03:53,986	INFO	1	ai.others.ClassMaster.ClassMaster	ClassMaster: Loaded 0 class change options.
+2023.04.16 09:03:54,025	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Eve the Fortune Teller has passed... Ignored 
+2023.04.16 09:03:54,028	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Looking for right words has passed... Ignored 
+2023.04.16 09:03:54,030	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Merry Squashmas Event has passed... Ignored 
+2023.04.16 09:03:54,033	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event The Power Of Love has passed... Ignored 
+2023.04.16 09:03:54,036	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Total Recall has passed... Ignored 
+2023.04.16 09:03:54,038	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Watermelon Ninja has passed... Ignored 
+2023.04.16 09:03:54,212	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Initializing spawns...
+2023.04.16 09:03:54,358	INFO	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Loaded 102 instances.
+2023.04.16 09:03:54,358	INFO	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Scheduled 0 instances.
+2023.04.16 09:03:55,392	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: All spawns has been initialized!
+2023.04.16 09:03:55,392	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2023.04.16 09:03:55,400	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Gludio: Sun Apr 23 16:00:00 CST 2023
+2023.04.16 09:03:55,401	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Dion: Sun Apr 23 16:00:00 CST 2023
+2023.04.16 09:03:55,401	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Giran: Sun Apr 23 16:00:00 CST 2023
+2023.04.16 09:03:55,401	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Oren: Sun Apr 23 16:00:00 CST 2023
+2023.04.16 09:03:55,401	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Aden: Sun Apr 23 16:00:00 CST 2023
+2023.04.16 09:03:55,404	INFO	1	org.l2jmobius.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 5 siege schedulers.
+2023.04.16 09:03:55,406	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManorManager	CastleManorManager: Manor system is deactivated.
+2023.04.16 09:03:55,407	INFO	1	org.l2jmobius.gameserver.instancemanager.SiegeGuardManager	SiegeGuardManager: Loaded 0 siege guards tickets.
+2023.04.16 09:03:55,407	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 129 quests.
+2023.04.16 09:03:55,407	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 82 scripts.
+2023.04.16 09:03:55,411	INFO	1	org.l2jmobius.gameserver.taskmanager.TaskManager	TaskManager: Loaded 5 Tasks.
+2023.04.16 09:03:55,412	INFO	1	org.l2jmobius.gameserver.instancemanager.DailyTaskManager	DailyTaskManager: Next schedule at 17/04 06:30.
+2023.04.16 09:03:55,415	INFO	1	org.l2jmobius.gameserver.instancemanager.MailManager	MailManager: Loaded 0 messages.
+2023.04.16 09:03:55,417	INFO	1	org.l2jmobius.gameserver.instancemanager.PunishmentManager	PunishmentManager: Loaded 0 active and 0 expired punishments.
+2023.04.16 09:03:55,418	INFO	1	org.l2jmobius.gameserver.GameServer	IdManager: Free ObjectID's remaining: 1879024433
+2023.04.16 09:03:55,419	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loading offline traders...
+2023.04.16 09:03:55,420	INFO	1	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loaded 0 offline traders.
+2023.04.16 09:03:55,550	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Started, using 422 of 4096 MB total memory.
+2023.04.16 09:03:55,550	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Maximum number of connected players is 2000.
+2023.04.16 09:03:55,550	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Server loaded in 15 seconds.
+2023.04.16 09:03:55,718	INFO	1	org.l2jmobius.commons.network.NetworkManager	ClientNetworkManager: Listening on 0.0.0.0:7777
+2023.04.16 09:03:55,720	INFO	139	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2023.04.16 09:03:55,738	INFO	139	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt
+2023.04.16 09:04:03,261	WARNING	29	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 1 seconds!
+2023.04.16 09:04:04,267	WARNING	141	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2023.04.16 09:04:04,268	INFO	136	org.l2jmobius.gameserver.Shutdown	All players disconnected and saved(1ms).
+2023.04.16 09:04:04,268	INFO	136	org.l2jmobius.gameserver.Shutdown	Movement Task Manager: Thread interruped(0ms).
+2023.04.16 09:04:04,268	INFO	136	org.l2jmobius.gameserver.Shutdown	Game Time Task Manager: Thread interruped(0ms).
+2023.04.16 09:04:04,268	INFO	136	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Shutting down.
+2023.04.16 09:04:04,271	INFO	136	org.l2jmobius.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(3ms).
+2023.04.16 09:04:04,271	INFO	136	org.l2jmobius.gameserver.Shutdown	Login Server Thread: Thread interruped(0ms).
+2023.04.16 09:04:04,271	INFO	136	org.l2jmobius.gameserver.network.telnet.TelnetServer	Shutting down..
+2023.04.16 09:04:04,271	INFO	136	org.l2jmobius.gameserver.Shutdown	Telnet Server Thread: Thread interruped(0ms).
+2023.04.16 09:04:04,271	INFO	136	org.l2jmobius.gameserver.Shutdown	GM shutdown received. Shutting down NOW!
+2023.04.16 09:04:04,285	INFO	136	org.l2jmobius.gameserver.Shutdown	RaidBossSpawnManager: All raidboss info saved(13ms).
+2023.04.16 09:04:04,286	INFO	136	org.l2jmobius.gameserver.Shutdown	GrandBossManager: All Grand Boss info saved(1ms).
+2023.04.16 09:04:04,286	INFO	136	org.l2jmobius.gameserver.Shutdown	Item Auction Manager: All tasks stopped(1ms).
+2023.04.16 09:04:04,286	INFO	136	org.l2jmobius.gameserver.Shutdown	Olympiad System: Data saved(0ms).
+2023.04.16 09:04:04,287	INFO	136	org.l2jmobius.gameserver.Shutdown	Hero System: Data saved(1ms).
+2023.04.16 09:04:04,287	INFO	136	org.l2jmobius.gameserver.Shutdown	Clan System: Data saved(0ms).
+2023.04.16 09:04:04,287	INFO	136	org.l2jmobius.gameserver.Shutdown	Cursed Weapons Manager: Data saved(0ms).
+2023.04.16 09:04:04,287	INFO	136	org.l2jmobius.gameserver.Shutdown	Castle Manor Manager: Data saved(0ms).
+2023.04.16 09:04:04,288	INFO	136	org.l2jmobius.gameserver.Shutdown	Quest Manager: Data saved(0ms).
+2023.04.16 09:04:04,294	INFO	136	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 5 variables.
+2023.04.16 09:04:04,294	INFO	136	org.l2jmobius.gameserver.Shutdown	Global Variables Manager: Variables saved(7ms).
+2023.04.16 09:04:04,295	INFO	136	org.l2jmobius.gameserver.Shutdown	SchemeBufferTable data has been saved.
+2023.04.16 09:04:04,295	INFO	136	org.l2jmobius.gameserver.Shutdown	Bot Report Table: Successfully saved reports to database!
+2023.04.16 09:04:09,297	INFO	136	org.l2jmobius.gameserver.Shutdown	Game Server: Selector thread has been shut down(1ms).
+2023.04.16 09:04:09,307	INFO	136	org.l2jmobius.gameserver.Shutdown	Database Factory: Database connection has been shut down(10ms).

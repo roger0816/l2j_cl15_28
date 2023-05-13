@@ -1,0 +1,25 @@
+<html><body><br>
+<font color="LEVEL">[城堡設施管理]</font><br>
+<table width=275 cellspacing=3 cellpadding=0>
+<tr>
+<td FIXWIDTH=45><font color="999999">名稱</font></td><td FIXWIDTH=230>HP恢復設施</td>
+</tr>
+<tr>
+<td><font color="999999">花費</font></td><td>%AgitDecoCost%</td>
+</tr>
+<tr>
+<td valign=top><font color="999999">用途</font></td>
+<td>恢復城堡中血盟成員的HP，恢復量為<font color="00FFFF">%AgitDecoEffect%</font>。</td>
+</tr>
+</table><br>
+使用此設施需要提前支付費用。<br>第一次使用費用會<font color="LEVEL">從血盟領主的庫存中扣除</font>，之後的費用會自動從<font color="LEVEL">血盟倉庫中扣除</font>。<br>
+如果血盟倉庫中的Adena不足以支付費用，<font color="LEVEL">該設施將被重置</font>。<br>
+<center>
+<table width=200>
+<tr>
+<td align=center><button action="bypass -h Quest CastleChamberlain set_func %AgitDecoSubmit%" value="確定" width=90 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td align=center><button action="bypass -h Quest CastleChamberlain additional_functions" value="取消" width=90 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</center>
+</body></html>

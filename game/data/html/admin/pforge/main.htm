@@ -1,0 +1,27 @@
+<html><body>
+<table width=270 cellspacing=0 cellpadding=0>
+	<tr>
+		<td width=45><button value="主頁" action="bypass -h admin_admin" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td width=180><center>封包製造面板</center></td>
+		<td width=45><button value="返回" action="bypass -h admin_admin4" width=45 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table><br><br>
+
+<center>
+	<table width=180 cellspacing=0 cellpadding=0>
+		<tr>
+			<td><center>第一個操作碼</center></td><td><center>第二個操作碼</center></td><td><center>第三個操作碼</center></td>
+		</tr>
+		<tr>
+			<td><edit width=60 var=opcode1></td><td><edit width=60 var=opcode2></td><td><edit width=60 var=opcode3></td>
+		</tr>
+	</table><br>
+
+	<table width=180 cellspacing=0 cellpadding=0>
+		<tr><td><center>格式 (b,x,c,h,d,q,f,s)</center></td></tr>
+		<tr><td><edit width=180 var=format></td></tr>
+	</table><br>
+
+	<button value="下一步 >>" action="bypass -h admin_forge_values $opcode1 $opcode2 $opcode3 ; $format" width=180 height=23 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</center>
+</body></html>

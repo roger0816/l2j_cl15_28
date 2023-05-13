@@ -1,0 +1,35 @@
+<html><title>實例維護菜單</title><body>
+<center>
+<table width=260><tr>
+<td width=40><button value="主頁" action="bypass -h admin_admin" width=40 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=180><center>實例創建菜單</center></td>
+<td width=40><button value="返回" action="bypass -h admin_html instancezone.htm" width=40 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table><br>
+<table width=260>
+<tr>
+<td><button value="常規" action="bypass -h admin_html instancezone.htm" width=83 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="個人" action="bypass -h admin_html instancezone2.htm" width=83 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><button value="模板ID" action="bypass -h admin_html help/instancezone_list.htm" width=83 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table><br>
+<center>角色相關：<br>
+<table width=260>
+<tr>
+<td></td>
+<td>玩家名稱</td>
+<td>模板ID</td>
+</tr>
+<tr>
+<td><button value="清除" action="bypass -h admin_instancezone_clear $playername $instanceid" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><edit var="playername" width=90></td>
+<td><edit var="instanceid" width=60></td>
+</tr>
+<tr><td><br></td></tr>
+<tr>
+<td><button value="列表" action="bypass -h admin_instancezone $playername2" width=80 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td><edit var="playername2" width=90></td>
+</tr>
+</table><br><br><br>
+<font color="LEVEL">注意：模板ID也可以在gameserver\data\InstanceNames.xml中找到</font>
+</center>
+</body></html>

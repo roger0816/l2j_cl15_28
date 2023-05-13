@@ -1,0 +1,22 @@
+<html><body>
+<font color="LEVEL">競標只允許在一個氏族大廳中進行。</font> 當提交競標時，出價的adena數量會從氏族倉庫轉移到拍賣中。 <font color="LEVEL">出價金額的10％是交易稅</font>，即使競標被取消，也無法退還。<br>
+<font color="LEVEL">出價價格</font>必須高於最低出價價格（或重新競標時的上一次出價價格），在拍賣結束時寫下最高價格的氏族贏得了拍賣。<br>
+目前氏族倉庫中有<font color="aaccff">%clanAdena%</font>adena。最低出價金額為<font color="aaccff">%minBid%</font>adena。<br>
+您想出多少價？
+<table width=270 border=0>
+<tr>
+<td width=220 align=right><edit var=bidprice width=230 align=right type=number></td>
+<td width=40 align=right>adena</td>
+</tr>
+</table>
+<img src="L2UI.SquareBlank" width=270 height=10>
+<img src="L2UI.SquareWhite" width=270 height=1>
+<img src="L2UI.SquareBlank" width=270 height=5>
+<table width=270 border=0>
+<tr>
+<td width=110></td>
+<td width=80 align=center><button action="bypass -h Quest ClanHallAuctioneer auctionList id=%id%" value="返回" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td width=80 align=center><button action="bypass -h Quest ClanHallAuctioneer bid id=%id% bid=' $bidprice '	" value="確認" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr>
+</table>
+</body></html>

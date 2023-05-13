@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>伺服器:: 重新載入面板</title>
+</head>
+<body>
+<table width=270 background="L2UI_CT1.Windows.Windows_DF_TooltipBG">
+	<tr>
+		<td><button value="主要" action="bypass admin_admin" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="角色" action="bypass admin_admin6" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="遊戲" action="bypass admin_admin2" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="GM" action="bypass admin_admin7" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+<br>
+<center>
+	<table width=160 cellspacing=0 cellpadding=0>
+		<tr>
+			<td fixwidth=40>數值:</td>
+			<td fixwidth=120 height=25><edit var="value" width=120></td>
+		</tr>
+	</table>
+</center>
+<table width=260>
+	<tr>
+		<td><button value="NPC" action="bypass admin_reload npc $value" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="任務" action="bypass admin_reload quest $value" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="HTML" action="bypass admin_reload html $value" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="處理器" action="bypass admin_reload handler" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+	<tr>
+		<td><button value="物品" action="bypass admin_reload item" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="購買清單" action="bypass admin_reload buylist" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="多重販售" action="bypass admin_reload multisell" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="技能" action="bypass admin_reload skill" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+	<tr>
+		<td><button value="傳送" action="bypass admin_reload teleport" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="區域" action="bypass admin_reload zone" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="門" action="bypass admin_reload door" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="CW" action="bypass admin_reload cw" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+	<tr>
+		<td><button value="效果" action="bypass admin_reload effect" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="行走者" action="bypass admin_reload walker" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="存取" action="bypass admin_reload access" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="設定" action="bypass admin_reload config" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+	<tr>
+		<td><button value="紋章" action="bypass admin_reload crest" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="Sayune" action="bypass admin_reload sayune" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="L2Store" action="bypass admin_reload primeshop" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+		<td><button value="實例" action="bypass admin_reload instance" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+	<tr>
+		<td><button value="組合" action="bypass admin_reload combination" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+	</tr>
+</table>
+<br>
+<font name="hs12" color="LEVEL">不建議在正式伺服器上使用！</font>
+</body>
+</html>
